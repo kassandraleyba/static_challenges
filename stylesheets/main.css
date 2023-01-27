@@ -15,7 +15,7 @@ h1 {
   top: 0;
   width: 100%;
   padding: 20px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -53,9 +53,8 @@ button {
 body {
   font-family: Sans-serif;
   font-size: 15px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 20px;
+  /* width: 85%; */
 }
 
 h3 {
@@ -92,16 +91,16 @@ h3 {
   margin-bottom: 20px;
 }
 
-footer {
+.footer {
   background-color: rgb(47, 47, 47);
   color: white;
   font-family: Sans-serif;
   font-size: 12px;
-  position: fixed;
-  width: 100%;
   left: 0;
   bottom: 0;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .column-container {
