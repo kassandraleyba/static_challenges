@@ -6,29 +6,32 @@ h1 {
   color: white;
   font-family: Sans-serif;
   font-size: 28px;
-  margin-top: 20px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 20px;
 }
 
 .header1 {
   background-color: rgb(165, 8, 8);
   color: white;
   font-family: Sans-serif;
-  margin-left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  display:flex;
+  justify-content: space-between;
 }
 
 .header2 {
   background-color: rgb(47, 47, 47);
   color: white;
   font-family: Sans-serif;
+  width: 100%;
+  top: 70px;
+  padding: 20px;
+  text-align: right;
 }
 
 button {
   border: none;
   font-size: 15px;
-  float: right;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -37,13 +40,14 @@ button {
   background-color: rgb(165, 8, 8);
   color: white;
   font-family: Sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .button2 {
   background-color: rgb(47, 47, 47);
   color: white;
   font-family: Sans-serif;
-  float: right;
 }
 
 body {
@@ -62,7 +66,6 @@ h3 {
 .img1 {
   width: 900px;
   height: 450px;
-  float: left;
   margin-right: 20px;
   margin-top: 15px;
   margin-bottom: 20px;
@@ -71,7 +74,6 @@ h3 {
 .img2 {
   width: 200px;
   height: 150px;
-  float: right;
   margin-top: 10px;
   margin-bottom: 50px;
 }
@@ -79,7 +81,6 @@ h3 {
 .img3 {
   width: 200px;
   height: 150px;
-  float: right;
   margin-top: 10px;
   margin-bottom: 50px;
 }
@@ -87,7 +88,6 @@ h3 {
 .img4 {
   width: 200px;
   height: 200px;
-  float: right;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -97,36 +97,24 @@ footer {
   color: white;
   font-family: Sans-serif;
   font-size: 12px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
 }
 
 .column-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .column-left {
   display: flex;
   flex-direction: column;
 }
-.column-left {
-  display: flex;
-  flex-direction: column;
-}
-
-.header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.header-right {
-  display: flex;
-  flex-direction: column;
-}
-
-.header-left {
+.column-right {
   display: flex;
   flex-direction: column;
 }
